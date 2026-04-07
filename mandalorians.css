@@ -1,0 +1,144 @@
+.about {
+  padding: 6rem 1rem;
+  background: rgba(var(--foreground-rgb), 0.02);
+  scroll-margin-top: 5rem;
+}
+
+.about-container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about-subtitle {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .about-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-title {
+    font-size: 3rem;
+  }
+}
+
+.about-description {
+  font-size: 1.125rem;
+  color: var(--muted-foreground);
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .about-description {
+    font-size: 1.125rem;
+  }
+}
+
+/* Features Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}
+
+.feature-card {
+  background: rgba(var(--background-rgb), 0.5);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  border-color: var(--primary);
+  background: rgba(var(--background-rgb), 0.7);
+}
+
+.feature-icon {
+  width: 3rem;
+  height: 3rem;
+  background: rgba(96, 165, 250, 0.2);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.feature-description {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  line-height: 1.6;
+}
+
+/* Quote Section */
+.about-quote {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .quote-text {
+    font-size: 1.875rem;
+  }
+}
+
+.quote-author {
+  color: var(--muted-foreground);
+  display: block;
+  margin-top: 1rem;
+}

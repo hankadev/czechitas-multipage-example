@@ -1,0 +1,223 @@
+.series {
+  padding: 6rem 1rem;
+  background: rgba(var(--foreground-rgb), 0.02);
+  scroll-margin-top: 5rem;
+}
+
+.series-container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.series-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.series-subtitle {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.series-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .series-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .series-title {
+    font-size: 3rem;
+  }
+}
+
+.series-description {
+  font-size: 1.125rem;
+  color: var(--muted-foreground);
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 6rem;
+}
+
+@media (min-width: 640px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.stat-card {
+  background: rgba(var(--background-rgb), 0.5);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  text-align: center;
+}
+
+.stat-card i {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  margin-bottom: 0.5rem;
+}
+
+.stat-value {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+/* Seasons Section */
+.seasons-section {
+  margin-bottom: 6rem;
+}
+
+.seasons-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+.seasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .seasons-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.season-card {
+  background: rgba(var(--background-rgb), 0.5);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+.season-card:hover {
+  border-color: var(--primary);
+  background: rgba(var(--background-rgb), 0.7);
+}
+
+.season-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.season-number {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--primary);
+}
+
+.season-year {
+  color: var(--accent);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.season-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.season-episodes {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  margin-bottom: 1rem;
+}
+
+.season-description {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  line-height: 1.6;
+}
+
+/* Creator Info */
+.creator-info {
+  background: rgba(var(--background-rgb), 0.5);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .creator-info {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
+
+.creator-label,
+.producer-label {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.creator-name {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.creator-bio {
+  color: var(--muted-foreground);
+  line-height: 1.7;
+}
+
+.producers-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.producers-list li {
+  color: var(--muted-foreground);
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}

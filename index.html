@@ -4,25 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Mandalorian</title>
-  <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index.css">
+
 </head>
 <body>
   <nav class="nav">
     <div class="nav-container">
       <div class="nav-content">
         <!-- Home -->
-        <a href="#home" class="home">
+        <a href="/" class="home">
           <span>THE MANDALORIAN</span>
         </a>
 
         <!-- Desktop Navigation -->
         <div class="desktop-nav">
-          <a href="#home">Home</a>
-          <a href="#about">About Mandalorians</a>
-          <a href="#characters">Characters</a>
-          <a href="#series">The Series</a>
+          <a href="/">Home</a>
+          <a href="/mandalorians.html">About Mandalorians</a>
+          <a href="/characters.html">Characters</a>
+          <a href="/series.html">The Series</a>
         </div>
 
         <!-- Mobile Menu Toggle -->
@@ -35,10 +37,10 @@
 
         <!-- Mobile Navigation -->
         <div class="mobile-nav">
-          <a href="#home">Home</a>
-          <a href="#about">About Mandalorians</a>
-          <a href="#characters">Characters</a>
-          <a href="#series">The Series</a>
+          <a href="/">Home</a>
+          <a href="/mandalorians.html">About Mandalorians</a>
+          <a href="/characters.html">Characters</a>
+          <a href="/series.html">The Series</a>
         </div>
       </div>
     </div>
@@ -64,262 +66,6 @@
         far from the authority of the New Republic.
       </p>
       <p class="hero-quote">"This is the Way."</p>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="about">
-    <div class="about-container">
-      <!-- Section Header -->
-      <div class="about-header">
-        <p class="about-subtitle">The Way</p>
-        <h2 class="about-title">Who Are The Mandalorians?</h2>
-        <p class="about-description">
-          The Mandalorians are a proud warrior people whose culture dates back thousands of years. Originating from the planet Mandalore, they have spread across the galaxy, united not by blood but by creed.
-        </p>
-      </div>
-
-      <!-- Features Grid -->
-      <div class="features-grid">
-        <!-- Feature 1: Beskar Armor -->
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-shield"></i>
-          </div>
-          <h3 class="feature-title">Beskar Armor</h3>
-          <p class="feature-description">
-            Mandalorian armor is forged from beskar, one of the strongest metals in the galaxy. It can withstand blaster fire and even lightsaber strikes.
-          </p>
-        </div>
-
-        <!-- Feature 2: Warrior Culture -->
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-fist-raised"></i>
-          </div>
-          <h3 class="feature-title">Warrior Culture</h3>
-          <p class="feature-description">
-            Mandalorians are raised as warriors from birth. Combat training is central to their identity, making them some of the most feared fighters in the galaxy.
-          </p>
-        </div>
-
-        <!-- Feature 3: The Creed -->
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-people-group"></i>
-          </div>
-          <h3 class="feature-title">The Creed</h3>
-          <p class="feature-description">
-            Mandalorians follow a strict code known as "The Way." Traditional Mandalorians never remove their helmets in front of others.
-          </p>
-        </div>
-
-        <!-- Feature 4: Foundlings -->
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-star"></i>
-          </div>
-          <h3 class="feature-title">Foundlings</h3>
-          <p class="feature-description">
-            Mandalorians adopt orphans of war, known as foundlings. These children are raised in the Way and become full Mandalorians.
-          </p>
-        </div>
-      </div>
-
-      <!-- Quote -->
-      <div class="about-quote">
-        <blockquote class="quote-text">
-          "I am a Mandalorian. Weapons are part of my religion."
-        </blockquote>
-        <cite class="quote-author">- Din Djarin</cite>
-      </div>
-    </div>
-  </section>
-
-  <!-- Characters Section -->
-  <section id="characters" class="characters">
-    <div class="characters-container">
-      <!-- Section Header -->
-      <div class="characters-header">
-        <p class="characters-subtitle">The Cast</p>
-        <h2 class="characters-title">Main Characters</h2>
-        <p class="characters-description">
-          Meet the heroes and warriors who bring this epic space western to life.
-        </p>
-      </div>
-
-      <!-- Characters List -->
-      <div class="characters-list">
-        <!-- Character 1: Din Djarin -->
-        <div class="character-item">
-          <div class="character-image">
-            <img src="images/din-djarin.webp" alt="Din Djarin" class="char-img">
-            <div class="character-overlay"></div>
-          </div>
-          <div class="character-content">
-            <p class="character-alias">The Mandalorian</p>
-            <h3 class="character-name">Din Djarin</h3>
-            <p class="character-description">
-              Din Djarin is a foundling who was rescued by Mandalorians during the Clone Wars. Raised in the Fighting Corps, he became a bounty hunter and a member of the Children of the Watch. His life changed forever when he was hired to retrieve a mysterious asset-Grogu.
-            </p>
-            <div class="character-traits">
-              <span class="trait">Bounty Hunter</span>
-              <span class="trait">Beskar Armor</span>
-              <span class="trait">Foundling</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Character 2: Grogu -->
-        <div class="character-item character-item-reverse">
-          <div class="character-image">
-            <img src="images/grogu.webp" alt="Grogu" class="char-img">
-            <div class="character-overlay"></div>
-          </div>
-          <div class="character-content">
-            <p class="character-alias">The Child</p>
-            <h3 class="character-name">Grogu</h3>
-            <p class="character-description">
-              Grogu, affectionately known as "The Child" or "Baby Yoda," is a mysterious Force-sensitive being of the same species as Jedi Master Yoda. Despite being 50 years old, he is still an infant by his species' standards. His bond with Din Djarin forms the heart of the series.
-            </p>
-            <div class="character-traits">
-              <span class="trait">Force-Sensitive</span>
-              <span class="trait">50 Years Old</span>
-              <span class="trait">Foundling</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Character 3: Bo-Katan Kryze -->
-        <div class="character-item">
-          <div class="character-image">
-            <img src="images/bo-katan.jpg" alt="Bo-Katan Kryze" class="char-img">
-            <div class="character-overlay"></div>
-          </div>
-          <div class="character-content">
-            <p class="character-alias">Heir to Mandalore</p>
-            <h3 class="character-name">Bo-Katan Kryze</h3>
-            <p class="character-description">
-              Bo-Katan Kryze is a Mandalorian warrior and former member of the terrorist group Death Watch. She seeks to reclaim Mandalore and restore her people to their former glory. Her quest for the Darksaber puts her on a collision course with Din Djarin.
-            </p>
-            <div class="character-traits">
-              <span class="trait">Nite Owls Leader</span>
-              <span class="trait">Royalty</span>
-              <span class="trait">Darksaber Seeker</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Series Section -->
-  <section id="series" class="series">
-    <div class="series-container">
-      <!-- Section Header -->
-      <div class="series-header">
-        <p class="series-subtitle">The Show</p>
-        <h2 class="series-title">The Series</h2>
-        <p class="series-description">
-          The Mandalorian is an American space Western television series created by Jon Favreau for Disney+. Set in the Star Wars universe, it follows the adventures of a lone bounty hunter in the outer reaches of the galaxy.
-        </p>
-      </div>
-
-      <!-- Stats Grid -->
-      <div class="stats-grid">
-        <!-- Stat 1: First Aired -->
-        <div class="stat-card">
-          <i class="fas fa-calendar"></i>
-          <p class="stat-label">First Aired</p>
-          <p class="stat-value">November 12, 2019</p>
-        </div>
-
-        <!-- Stat 2: Network -->
-        <div class="stat-card">
-          <i class="fas fa-tv"></i>
-          <p class="stat-label">Network</p>
-          <p class="stat-value">Disney+</p>
-        </div>
-
-        <!-- Stat 3: Episodes -->
-        <div class="stat-card">
-          <i class="fas fa-clock"></i>
-          <p class="stat-label">Episodes</p>
-          <p class="stat-value">24 Episodes</p>
-        </div>
-
-        <!-- Stat 4: Awards -->
-        <div class="stat-card">
-          <i class="fas fa-trophy"></i>
-          <p class="stat-label">Awards</p>
-          <p class="stat-value">7 Emmy Awards</p>
-        </div>
-      </div>
-
-      <!-- Seasons -->
-      <div class="seasons-section">
-        <h3 class="seasons-title">Seasons</h3>
-        <div class="seasons-grid">
-          <!-- Season 1 -->
-          <div class="season-card">
-            <div class="season-header">
-              <span class="season-number">1</span>
-              <span class="season-year">2019</span>
-            </div>
-            <h4 class="season-name">Season 1</h4>
-            <p class="season-episodes">8 Episodes</p>
-            <p class="season-description">
-              A lone Mandalorian bounty hunter is hired to retrieve an asset for a mysterious client. What he finds changes everything.
-            </p>
-          </div>
-
-          <!-- Season 2 -->
-          <div class="season-card">
-            <div class="season-header">
-              <span class="season-number">2</span>
-              <span class="season-year">2020</span>
-            </div>
-            <h4 class="season-name">Season 2</h4>
-            <p class="season-episodes">8 Episodes</p>
-            <p class="season-description">
-              The Mandalorian and the Child continue their journey, facing enemies and making allies as they search for the Jedi.
-            </p>
-          </div>
-
-          <!-- Season 3 -->
-          <div class="season-card">
-            <div class="season-header">
-              <span class="season-number">3</span>
-              <span class="season-year">2023</span>
-            </div>
-            <h4 class="season-name">Season 3</h4>
-            <p class="season-episodes">8 Episodes</p>
-            <p class="season-description">
-              The Mandalorian travels to Mandalore to redeem himself, while Bo-Katan fights to unite her people.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Creator Info -->
-      <div class="creator-info">
-        <div class="creator-left">
-          <p class="creator-label">Created By</p>
-          <h4 class="creator-name">Jon Favreau</h4>
-          <p class="creator-bio">
-            Jon Favreau created The Mandalorian, drawing inspiration from classic Westerns and samurai films. The show revolutionized television production with its use of the StageCraft virtual production technology, also known as "The Volume."
-          </p>
-        </div>
-        <div class="creator-right">
-          <p class="producer-label">Executive Producers</p>
-          <ul class="producers-list">
-            <li>• Jon Favreau</li>
-            <li>• Dave Filoni</li>
-            <li>• Kathleen Kennedy</li>
-            <li>• Colin Wilson</li>
-          </ul>
-        </div>
-      </div>
     </div>
   </section>
 
